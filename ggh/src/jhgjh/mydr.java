@@ -1,8 +1,8 @@
 package jhgjh;
 
 public class mydr {
-	int x;
-	int y;
+	static int x;
+	static int y;
 	
 	
 	//IF THIS IS NOT THIS VARIABLES ARE TOTALLY INDEPENDENT THEY ARE NOT AFFECTED 
@@ -24,5 +24,8 @@ public static void main(String[] args)
 {
 	mydr obj1 = new mydr(10,50);
 	obj1.sum();
+	int sum = x+y;
 }
+
+
 }
